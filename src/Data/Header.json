@@ -1,0 +1,16 @@
+[
+    {
+        "imageSrc": "logo.png",
+        "menuItems": [
+            {"text": "Features", "link": "#"},
+            {"text": "Wallet", "link": "#"},
+            {"text": "Testimonial", "link": "#"},
+            {"text": "FAQ", "link": "#"},
+            {"text": "Blog", "link": "#"}
+        ],
+        "button": {
+            "text": "Sign In",
+            "link": "#"
+        }
+    }
+]

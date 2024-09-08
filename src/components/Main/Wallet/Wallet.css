@@ -1,0 +1,158 @@
+.wallet
+{
+    padding: 2rem 0%;
+    width: 1330px;
+    margin: 0 auto;
+}
+
+.wallet .title
+{
+    display: flex;
+    align-items: center;
+}
+
+.wallet .title .box
+{
+    width: 50%;
+}
+
+.wallet .title .box span
+{
+    padding: 6px 12px;
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: 1px solid #8f8f8f33;
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.wallet .title .box h1
+{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 60px;
+    padding: 1rem 0%;
+}
+
+.wallet .title .box p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-gray);
+}
+
+.wallet .title .box:nth-child(2)
+{
+    text-align: right;
+}
+
+.wallet .title .box img
+{
+    width: 240px;
+    border: 10px solid var(--color-blue);
+    border-radius: 20px;
+    box-shadow: 0px 0px 16px #5190a3;
+    margin-top: 1.5rem;
+}
+
+.wallet .title .box h4
+{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.wallet .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    margin-top: 2rem;
+}
+
+.wallet .box-container .box
+{
+    border: 1px solid #8f8f8f33;
+    padding: 50px;
+}
+
+.wallet .box-container .box:not(:last-child)
+{
+    border-right: none;
+}
+
+.wallet .box-container .box i
+{
+    background-image: url(../../../assets//Icon-BG.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+    color: var(--color-blue);
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.wallet .box-container .box h4
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.wallet .box-container .box p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-gray);
+}
+
+/* Responsive */
+@media screen and (max-width: 1440px)
+{
+    .wallet
+    {
+        width: 100%;
+        padding: 2rem 3%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .wallet .title .box h1
+    {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .wallet
+    {
+        padding: 2rem 5%;
+    }
+    .wallet .title
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .wallet .title .box
+    {
+        width:  100%;
+    }
+    .wallet .title .box:nth-child(2)
+    {
+        text-align: left;
+    }
+    .wallet .box-container .box:not(:last-child)
+    {
+        border-right: 1px solid #8f8f8f33;
+    }
+}

@@ -1,0 +1,133 @@
+.footer
+{
+    width: 1330px;
+    margin: 0 auto;
+}
+
+.footer .box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem ,1fr));
+    gap: 30px;
+    padding: 3rem 0%;
+}
+
+.footer .box-container .logo img
+{
+    width: 200px;
+}
+
+.footer .box-container .box h4
+{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: var(--color-gray);
+}
+
+.footer .box-container .box ul li
+{
+    margin-bottom: 0.5rem;
+}
+
+.footer .box-container .box ul li a
+{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+.footer .box-container .box ul li:hover a
+{
+    color: var(--color-blue);
+}
+
+.footer .sub-footer .box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0% 1rem;
+}
+
+.footer .sub-footer .box ul
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .sub-footer .box ul li
+{
+    background-image: url(../../assets/Icon-BG.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.footer .sub-footer .box ul li a i
+{
+    color: var(--color-gray);
+}
+
+.footer .sub-footer .box ul li:hover a i
+{
+    color: var(--color-blue);
+}
+
+.footer .sub-footer .box p
+{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+.footer .sub-footer .box p a
+{
+    color: var(--color-blue);
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px)
+{
+    .footer
+    {
+        width: 100%;
+    }    
+    .footer .box-container
+    {
+        padding: 3rem 4%;
+    }
+    .sub-footer
+    {
+        padding: 1rem 3%;
+    }
+    .footer .sub-footer .box
+    {
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .footer .box-container
+    {
+        padding: 3rem 4% 1rem;
+    }
+    .footer .sub-footer .box
+    {
+        flex-direction: column;
+        align-items: start;
+        margin: 0rem;
+    }
+}

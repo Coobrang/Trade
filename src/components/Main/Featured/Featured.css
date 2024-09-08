@@ -1,0 +1,42 @@
+.mySwiper
+{
+    width: 1330px;
+    margin: 0 auto;
+    padding: 4rem 0% 2rem;
+}
+
+.mySwiper img
+{
+    width: 150px;
+}
+
+.swiper-slide
+{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* Responsive */
+@media screen and (max-width: 1440px)
+{
+    .mySwiper
+    {
+        padding: 100px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .mySwiper
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .mySwiper
+    {
+        padding: 50px 0px 20px;
+    }
+}

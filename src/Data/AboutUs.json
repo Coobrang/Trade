@@ -1,0 +1,17 @@
+{
+    "header": {
+        "title": "About Us",
+        "headline": "Empowering traders around the world",
+        "description": "Founded with the vision of democratizing trading, our platform combines intuitive design with powerful tools to simplify the trading experience."
+    },
+    "boxes": [
+        {
+            "title": "$500.000M+",
+            "subtitle": "In transactions done monthly"
+        },
+        {
+            "image": "AboutUs.webp",
+            "description": "Over 1M+ users has used <br> Upshift for trading"
+        }
+    ]
+}

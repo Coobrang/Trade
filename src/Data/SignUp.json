@@ -1,0 +1,9 @@
+{
+    "headline": "Ready to take your <br> trading to the next level?",
+    "description": "Sign up today and receive free credit towards your first trade.",
+    "button": {
+        "text": "Get Started",
+        "link": "#",
+        "iconCalss": "fa-solid fa-angle-right"
+    }
+}

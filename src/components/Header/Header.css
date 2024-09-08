@@ -1,0 +1,151 @@
+.header
+{
+    padding: 1rem 0%;
+}
+
+.header .row-wrapper
+{
+    width: 1330px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .row-wrapper .logo img
+{
+    width: 200px;
+}
+
+.header .row-wrapper .menu ul
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header .row-wrapper .menu ul li
+{
+    padding: 10px;
+}
+
+.header .row-wrapper .menu ul li a
+{
+    color: var(--color-gray);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header .row-wrapper .menu ul li:hover a
+{
+    color: var(--color-blue);
+}
+
+.header .row-wrapper .button a
+{
+    padding: 10px 30px;
+    border: 1px solid var(--color-gray);
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-black);
+}
+
+/* Mobile Menu */
+.mobile-menu-button
+{
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.mobile-menu-button i
+{
+    color: var(--color-blue);
+}
+
+.mobile-menu
+{
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 300px;
+    height: 100%;
+    background-color: var(--color-black);
+    box-shadow: 0px 0px 10px var(--color-black);
+    padding: 20px;
+    transition: right 0.3s ease;
+    z-index: 998;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile-menu.open
+{
+    right: 0px;
+}
+
+.mobile-menu ul
+{
+    padding: 0;
+    width: 100%;
+}
+
+.mobile-menu ul li
+{
+    margin-bottom: 20px;
+    padding: 13px;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mobile-menu ul li a
+{
+    color: var(--color-black);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.mobile-menu ul li:hover a
+{
+    color: var(--color-blue);
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1440px)
+{
+    .header
+    {
+        padding: 1rem 4%;
+    }
+
+    .header .row-wrapper
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .header .row-wrapper .menu
+    {
+        display: none;
+    }
+    .header .row-wrapper .button
+    {
+        display: none;
+    }
+    .mobile-menu-button
+    {
+        display: block;
+    }
+}

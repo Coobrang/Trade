@@ -1,0 +1,204 @@
+.meet
+{
+    padding: 2rem 0%;
+    width: 1330px;
+    margin: 0 auto;
+    height: 95vh;
+}
+
+.meet .platform
+{
+    position: relative;
+    text-align: center;
+    height: 700px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 50%, rgb(168, 229, 255) 130%), url(../../../assets/Trading-Platform-Hero-BG.webp);
+    background-position: center;
+    background-size: contain;
+}
+
+.meet .platform .logos .box img
+{
+    position: absolute;
+    border-radius: 50px;
+}
+
+.meet .platform .logos .box:nth-child(1) img
+{
+    top: 100px;
+    left: 220px;
+    width: 70px;
+    border: 1px solid #e6e6e6;
+}
+
+.meet .platform .logos .box:nth-child(2) img
+{
+    left: 120px;
+    top: 250px;
+    width: 80px;
+}
+
+.meet .platform .logos .box:nth-child(3) img
+{
+    left: 220px;
+    bottom: 200px;
+    width: 60px;
+}
+
+.meet .platform .logos .box:nth-child(4) img
+{
+    top: 100px;
+    right: 220px;
+    width: 70px;
+}
+
+.meet .platform .logos .box:nth-child(5) img
+{
+    right: 120px;
+    top: 250px;
+    width: 80px;
+    border: 1px solid #e6e6e6;
+}
+
+.meet .platform .logos .box:nth-child(6) img
+{
+    right: 220px;
+    bottom: 200px;
+    width: 60px;
+}
+
+.meet .platform .content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.meet .platform .content span
+{
+    font-size: 1rem;
+    font-weight: 300;
+    border: 1px solid var(--color-gray);
+    color: var(--color-blue);
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.meet .platform .content h1
+{
+    margin: 2rem 0rem 1rem 0rem;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 70px;
+}
+
+.meet .platform .content p
+{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-gray);
+    margin-bottom: 2rem;
+}
+
+.meet .platform .content a
+{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+
+.meet .platform .content a:hover
+{
+    background-color: var(--color-blue);
+}
+
+.meet .platform .content img
+{
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px #00b0ff;
+}
+
+/* Responsive */
+@media screen and (max-width: 1440px)
+{
+    .meet
+    {
+        padding: 0rem 0rem;
+        height: 100vh;
+    }
+}
+@media screen and (max-width: 1024px)
+{
+    .meet
+    {
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .meet
+    {
+        height: 85vh;
+    }
+    .meet .platform .logos .box:nth-child(1) img
+    {
+        left: 70px;
+    }
+    .meet .platform .logos .box:nth-child(2) img
+    {
+        left: 70px;
+    }
+    .meet .platform .logos .box:nth-child(3) img
+    {
+        left: 70px;
+    }
+    .meet .platform .logos .box:nth-child(4) img
+    {
+        right: 70px;
+    }
+    .meet .platform .logos .box:nth-child(5) img
+    {
+        right: 70px;
+    }
+    .meet .platform .logos .box:nth-child(6) img
+    {
+        right: 70px;
+    }
+    .meet .platform .content h1
+    {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .meet
+    {
+        height: 100%;
+    }
+    .meet .platform
+    {
+        height: 650px;
+    }
+    .meet .platform .content
+    {
+        width: 90%;
+    }
+    .meet .platform .logos
+    {
+        display: none;
+    }
+    .meet .platform .content img
+    {
+        position: relative;
+    }
+}

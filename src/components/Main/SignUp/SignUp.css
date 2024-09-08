@@ -1,0 +1,65 @@
+.sign-up
+{
+    height: 600px;
+    background-image: url(../../../assets//sl9.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.sign-up .row-box
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 100px;
+}
+
+.sign-up .row-box h1
+{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-white);
+    line-height: 60px;
+    margin-bottom: 1rem;
+}
+
+.sign-up .row-box p
+{
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--color-white);
+    margin-bottom: 3rem;
+}
+
+.sign-up .row-box a
+{
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.sign-up .row-box a:hover
+{
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px)
+{
+    .sign-up .row-box
+    {
+        margin-left: 50px;
+    }
+    .sign-up .row-box h1
+    {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+}

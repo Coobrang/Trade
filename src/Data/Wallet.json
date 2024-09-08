@@ -1,0 +1,29 @@
+{
+    "header": {
+        "title": "Wallet",
+        "headline": "Seamless transactions with Upshift wallet",
+        "description": "Your gateway to easy and secure cryptocurrency transactions. Whether you’re receiving payments for services, splitting bills, or accepting donations, our wallet makes it straightforward and hassle-free."
+    },
+    "network":{
+        "label": "network",
+        "name": "Base",
+        "image": "barcode.webp"
+    },
+    "features": [
+        {
+            "iconCalss": "fa-solid fa-bolt",
+            "title": "Speed",
+            "description": "Transactions are completed within seconds, thanks to the efficient blockchain technology."
+        },
+        {
+            "iconCalss": "fa-solid fa-globe",
+            "title": "Global Access",
+            "description": "Receive payments from anyone, anywhere in the world, without the need for traditional banking services."
+        },
+        {
+            "iconCalss": "fa-solid fa-shield-halved",
+            "title": "Security",
+            "description": "Advanced encryption and security protocols protect your wallet and ensure your funds are safe."
+        }
+    ]
+}

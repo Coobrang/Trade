@@ -1,0 +1,40 @@
+{
+    "logo": "logo.png",
+    "boxes": [
+        {
+            "title": "Company",
+            "links": [
+                {"text": "Overview", "url": "#"},
+                {"text": "Features", "url": "#"},
+                {"text": "Solutions", "url": "#"},
+                {"text": "Tutorials", "url": "#"},
+                {"text": "Pricing", "url": "#"}
+            ]
+        },
+        {
+            "title": "Product",
+            "links": [
+                {"text": "About Us", "url": "#"},
+                {"text": "Careers", "url": "#"},
+                {"text": "News", "url": "#"},
+                {"text": "Media Kit", "url": "#"},
+                {"text": "Contact", "url": "#"}
+            ]
+        },
+        {
+            "title": "Contact Us",
+            "links": [
+                {"text": "info@email.com", "url": "#"},
+                {"text": "(555) 867-3094", "url": "#"}
+            ]
+        }
+    ],
+    "socailMedia": [
+        {"iconClass": "fa-brands fa-x-twitter", "url": "#"},
+        {"iconClass": "fa-brands fa-linkedin-in", "url": "#"},
+        {"iconClass": "fa-brands fa-facebook-f", "url": "#"},
+        {"iconClass": "fa-brands fa-instagram", "url": "#"},
+        {"iconClass": "fa-brands fa-youtube", "url": "#"}
+    ],
+    "copyright": "© 2024 <a href='#'>Coobrang</a>. All Rights Reserved."
+}

@@ -1,0 +1,19 @@
+{
+    "images": [
+        "Google.webp",
+        "Facebook.webp",
+        "Figma.webp",
+        "Apple.webp",
+        "Tiktok.webp",
+        "Spotify.webp"
+    ],
+    "content": {
+        "title": "Meet Upshift",
+        "headline": "Trade smarter, faster, and easier",
+        "description": "Your gateway to the financial markets, offering you intuitive tools to trade stocks, ETFs, and crypto with zero commission.",
+        "linkText": "Get Started",
+        "linkUrl": "#",
+        "iconClass": "fa-solid fa-angle-right",
+        "image": "TRD.webp"
+    }
+}

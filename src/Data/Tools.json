@@ -1,0 +1,25 @@
+{
+    "header": {
+        "iconClass": "fa-solid fa-bolt",
+        "title": "Features",
+        "headline": "Trading tools of the future",
+        "description": "Discover the range of top-tier features designed to optimize your trading experience, from real-time market data to zero commission fees, all integrated into a user-friendly interface."
+    },
+    "boxes": [
+        {
+            "title": "Smart trading view",
+            "description": "Get the right to buy or sell stocks at a specific date for a specific price.",
+            "image": "tools1.webp"
+        },
+        {
+            "title": "Crypto marketplace",
+            "description": "Trade stocks, ETFs, and cryptocurrencies without worrying about commission fees. What you earn is yours to keep.",
+            "image": "tools2.webp"
+        }
+    ],
+    "bottom": {
+        "title": "Stock bundle diversities",
+        "description": "Execute trades in real-time with our cutting-edge technology that ensures speed and reliability.",
+        "image": "tools3.webp"
+    }
+}
